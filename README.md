@@ -22,4 +22,4 @@ This repository contains code examples from the official Rust documentation, "Th
 3. **Explore the Code**: Navigate through the chapter directories and examine the code examples.
 4. **Run the Code**: Use the cargo run command to compile and run the code examples.
 
-Enjoy learning Rust!
+# Enjoy learning Rust!
