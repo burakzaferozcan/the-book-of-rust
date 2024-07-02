@@ -1,0 +1,1 @@
+/home/ozcan/software/RUST/the-book-of-rust/03-variables_mutability/variables_mutability/target/debug/variables_mutability: /home/ozcan/software/RUST/the-book-of-rust/03-variables_mutability/variables_mutability/src/main.rs
