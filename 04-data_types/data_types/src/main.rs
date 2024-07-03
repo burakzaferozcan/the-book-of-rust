@@ -30,7 +30,6 @@ fn main() {
     let signed_size_max: isize = std::isize::MAX;
     let unsigned_size_min: usize = std::usize::MIN;
     let unsigned_size_max: usize = std::usize::MAX;
-
     println!("
     signed_byte1: {signed_byte1}
     signed_byte2: {signed_byte2}
@@ -77,7 +76,6 @@ fn main() {
     let remainder = 43 % 5;
     println!("Remainder: {remainder}");
 
-
     //? The Boolean Type
     let t=true;
     let f:bool=false;
@@ -85,7 +83,6 @@ fn main() {
     println!("f : {f}");
     if t {println!("asd")}
     if f {println!("qwe")}
-
 
     //? The Character Type
     let c="z";
@@ -95,7 +92,7 @@ fn main() {
     let heart_eyed_cat = '😻';
     println!("Heart Eyed Cat: {heart_eyed_cat}");
 
-    //? Compound Types
+    //? Compound Types //? The Tuple Type
     let tup: (i32, f64, u8) = (500, 6.4, 1);
     println!("tup : {:?}", tup);
     let (x, y, z) = tup;
@@ -103,4 +100,19 @@ fn main() {
 
     //? The Array Type
     let a = [1, 2, 3, 4, 5];
+    println!("a : {:?}", a);
+    let months = ["January", "February", "March", "April", "May", "June", "July","August", "September", "October", "November", "December"];
+    println!("Months : {:?}", months);
+    // Bir dizinin türünü köşeli parantez kullanarak, her öğenin türü, noktalı virgül ve ardından dizideki öğe sayısıyla birlikte yazarsınız:
+    let  signed_a: [i32; 5] = [1, 2, 3, 4, 5];
+    let first = signed_a[0];
+    let second = signed_a[1];
+    println!("First element: {first}, Second element: {second}");
+    println!("signed_a : {:?}", signed_a);
+    // Burada gösterildiği gibi, başlangıç ​​değerini, ardından noktalı virgül ve ardından köşeli parantez içinde dizinin uzunluğunu belirterek, her öğe için aynı değeri içerecek şekilde bir diziyi başlatabilirsiniz:
+    let ayni_deger = [3; 5]; // let ayniDeger = [3, 3, 3, 3, 3];
+    println!("ayni_deger : {:?}", ayni_deger);
+
+
+
 }
